@@ -145,7 +145,7 @@ class GetValues(metaclass=VESCMessage):
 
     fields = [
             ('temp_fet_filtered', 'H', 10),
-            ('temp_motor_filtered', 'e', 1),
+            ('temp_motor_filtered', 'H', 10),
             ('avg_motor_current', 'i', 100),
             ('avg_input_current', 'i', 100),
             ('avg_id', 'f', 1),
